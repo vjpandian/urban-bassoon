@@ -12,6 +12,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
+      - run: echo "another comment for pr"
       - run:
           name: "Say hello"
           command: "echo Hello, World!!!.."
